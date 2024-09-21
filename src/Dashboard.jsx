@@ -33,6 +33,7 @@ const drawerWidth = 240;
 const openedMixin = (theme) => ({
   width: drawerWidth,
   transition: theme.transitions.create('width', {
+
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.enteringScreen,
   }),
@@ -198,7 +199,7 @@ export default function Dashboard() {
               </ListItem>
             </List>
           </Drawer>
-          <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+          <Box component="main" sx={{ flexGrow: 1}}>
             <DrawerHeader />
             <Typography>
               <Routes>
