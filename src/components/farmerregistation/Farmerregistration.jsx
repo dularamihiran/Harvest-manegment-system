@@ -36,6 +36,7 @@ function Farmerregistration() {
       {/* Left column - Farmer registration form */}
       <div className='registration-left'>
         <h1 className='farmerregistation'>Farmer Registration</h1>
+        
         <Box
           component="form"
           sx={{
@@ -46,6 +47,7 @@ function Farmerregistration() {
           }}
           noValidate
           autoComplete="off"
+
         >
           <div className="form-field">
             <TextField id="name" label="Enter your name" variant="filled" fullWidth />

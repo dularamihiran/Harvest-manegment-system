@@ -1,35 +1,31 @@
 .all {
     background-image: url(images/brienne-hong-xEPMg4qfjOs-unsplash.jpg);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    min-height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
     gap: 20px;
-    box-sizing: border-box; 
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    box-sizing: border-box;
 }
-.farmerregistation{
-    color: white;
-}
-.farmerid{
-    color: white;
+
+.registration-left,
+.registration-right {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0); /* Transparent background */
 }
 
 .registration-left {
     flex-basis: 60%;
-    padding-left: 40px;
-    background-color: rgba(255, 255, 255, 0); /* Add a background color with transparency */
-    padding: 20px;
-    border-radius: 10px;
 }
 
 .registration-right {
-    flex-basis: 30%; 
+    flex-basis: 30%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -52,10 +48,11 @@
 }
 
 .form-field {
-    padding-bottom: 5px;
-    background-color: rgba(255, 255, 255, 0.692); /* Set background color with transparency for better visibility */
+    background-color: rgba(255, 255, 255, 0.692);
     border-radius: 5px;
     padding: 10px;
+    padding-bottom: 5px;
+    text-align: left;
 }
 
 .gender-group {
@@ -70,8 +67,9 @@
     font-weight: bold;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px; /* Make the button rounder */
     cursor: pointer;
+    width: 345px;
 }
 
 .register-btn:hover {
@@ -83,17 +81,12 @@
     height: 50px;
 }
 
-.register-btn {
-    width: 345px;
-    border-radius: 50px;
-}
-
-.form-field {
-    padding-top: 20px;
-    text-align: left;
-}
-
 input, label {
     color: #000; /* Set text color for better contrast */
 }
-
+.farmerregistation{
+    color: white;
+}
+.farmerid{
+    color: white;
+}
