@@ -10,7 +10,6 @@ import FormLabel from '@mui/material/FormLabel';
 import { styled } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
-import { brown } from '@mui/material/colors';
 
 function Farmerregistration() {
   const [value, setValue] = useState('female');

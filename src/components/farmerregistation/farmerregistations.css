@@ -1,5 +1,5 @@
 .all {
-    background-image: url(images/brienne-hong-xEPMg4qfjOs-unsplash.jpg);
+    background-image: url(/src/images/FarmerRegistationImages/brienne-hong-xEPMg4qfjOs-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 
 .registration-left,
 .registration-right {
-    padding: 20px;
+    padding: 0 20px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0); /* Transparent background */
 }
@@ -42,7 +42,7 @@
     padding: 20px;
     padding-top: 40px;
     border-radius: 10px;
-    width: 100%;
+    width: 90%;
     text-align: center;
     border: 1px solid #ccc;
 }
